@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B108E0A221801AC0086AB60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B108E09221801AC0086AB60 /* AppDelegate.m */; };
+		1B108E0D221801AC0086AB60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B108E0C221801AC0086AB60 /* ViewController.m */; };
+		1B108E10221801AC0086AB60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B108E0E221801AC0086AB60 /* Main.storyboard */; };
+		1B108E12221801AE0086AB60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B108E11221801AE0086AB60 /* Assets.xcassets */; };
+		1B108E15221801AE0086AB60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B108E13221801AE0086AB60 /* LaunchScreen.storyboard */; };
+		1B108E18221801AE0086AB60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B108E17221801AE0086AB60 /* main.m */; };
+		1B108E22221801AE0086AB60 /* Live_LFLiveKit_RTMPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B108E21221801AE0086AB60 /* Live_LFLiveKit_RTMPTests.m */; };
+		1B108E2D221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B108E2C221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests.m */; };
+		78EEFB13D9D9A61AC1D5835E /* libPods-Live_LFLiveKit_RTMP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47769003661AC8D95E75E570 /* libPods-Live_LFLiveKit_RTMP.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B108E1E221801AE0086AB60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B108DFD221801AC0086AB60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B108E04221801AC0086AB60;
+			remoteInfo = Live_LFLiveKit_RTMP;
+		};
+		1B108E29221801AE0086AB60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B108DFD221801AC0086AB60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B108E04221801AC0086AB60;
+			remoteInfo = Live_LFLiveKit_RTMP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D8EBFF8A307D0033F8C9FA5 /* Pods-Live_LFLiveKit_RTMP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live_LFLiveKit_RTMP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live_LFLiveKit_RTMP/Pods-Live_LFLiveKit_RTMP.release.xcconfig"; sourceTree = "<group>"; };
+		1B108E05221801AC0086AB60 /* Live_LFLiveKit_RTMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Live_LFLiveKit_RTMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B108E08221801AC0086AB60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B108E09221801AC0086AB60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B108E0B221801AC0086AB60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B108E0C221801AC0086AB60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B108E0F221801AC0086AB60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B108E11221801AE0086AB60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B108E14221801AE0086AB60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B108E16221801AE0086AB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B108E17221801AE0086AB60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B108E1D221801AE0086AB60 /* Live_LFLiveKit_RTMPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Live_LFLiveKit_RTMPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B108E21221801AE0086AB60 /* Live_LFLiveKit_RTMPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Live_LFLiveKit_RTMPTests.m; sourceTree = "<group>"; };
+		1B108E23221801AE0086AB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B108E28221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Live_LFLiveKit_RTMPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B108E2C221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Live_LFLiveKit_RTMPUITests.m; sourceTree = "<group>"; };
+		1B108E2E221801AE0086AB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47769003661AC8D95E75E570 /* libPods-Live_LFLiveKit_RTMP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Live_LFLiveKit_RTMP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A121459BBB42C0EFFB28842D /* Pods-Live_LFLiveKit_RTMP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live_LFLiveKit_RTMP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live_LFLiveKit_RTMP/Pods-Live_LFLiveKit_RTMP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B108E02221801AC0086AB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78EEFB13D9D9A61AC1D5835E /* libPods-Live_LFLiveKit_RTMP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B108E1A221801AE0086AB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B108E25221801AE0086AB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19EAEAA77EBE056679F6885E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47769003661AC8D95E75E570 /* libPods-Live_LFLiveKit_RTMP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B108DFC221801AC0086AB60 = {
+			isa = PBXGroup;
+			children = (
+				1B108E07221801AC0086AB60 /* Live_LFLiveKit_RTMP */,
+				1B108E20221801AE0086AB60 /* Live_LFLiveKit_RTMPTests */,
+				1B108E2B221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests */,
+				1B108E06221801AC0086AB60 /* Products */,
+				E2174F7536B51DF6ABE2B32D /* Pods */,
+				19EAEAA77EBE056679F6885E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B108E06221801AC0086AB60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B108E05221801AC0086AB60 /* Live_LFLiveKit_RTMP.app */,
+				1B108E1D221801AE0086AB60 /* Live_LFLiveKit_RTMPTests.xctest */,
+				1B108E28221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B108E07221801AC0086AB60 /* Live_LFLiveKit_RTMP */ = {
+			isa = PBXGroup;
+			children = (
+				1B108E08221801AC0086AB60 /* AppDelegate.h */,
+				1B108E09221801AC0086AB60 /* AppDelegate.m */,
+				1B108E0B221801AC0086AB60 /* ViewController.h */,
+				1B108E0C221801AC0086AB60 /* ViewController.m */,
+				1B108E0E221801AC0086AB60 /* Main.storyboard */,
+				1B108E11221801AE0086AB60 /* Assets.xcassets */,
+				1B108E13221801AE0086AB60 /* LaunchScreen.storyboard */,
+				1B108E16221801AE0086AB60 /* Info.plist */,
+				1B108E17221801AE0086AB60 /* main.m */,
+			);
+			path = Live_LFLiveKit_RTMP;
+			sourceTree = "<group>";
+		};
+		1B108E20221801AE0086AB60 /* Live_LFLiveKit_RTMPTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B108E21221801AE0086AB60 /* Live_LFLiveKit_RTMPTests.m */,
+				1B108E23221801AE0086AB60 /* Info.plist */,
+			);
+			path = Live_LFLiveKit_RTMPTests;
+			sourceTree = "<group>";
+		};
+		1B108E2B221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B108E2C221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests.m */,
+				1B108E2E221801AE0086AB60 /* Info.plist */,
+			);
+			path = Live_LFLiveKit_RTMPUITests;
+			sourceTree = "<group>";
+		};
+		E2174F7536B51DF6ABE2B32D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A121459BBB42C0EFFB28842D /* Pods-Live_LFLiveKit_RTMP.debug.xcconfig */,
+				0D8EBFF8A307D0033F8C9FA5 /* Pods-Live_LFLiveKit_RTMP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B108E04221801AC0086AB60 /* Live_LFLiveKit_RTMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B108E31221801AE0086AB60 /* Build configuration list for PBXNativeTarget "Live_LFLiveKit_RTMP" */;
+			buildPhases = (
+				9435A4FBB8A78528F04FC694 /* [CP] Check Pods Manifest.lock */,
+				1B108E01221801AC0086AB60 /* Sources */,
+				1B108E02221801AC0086AB60 /* Frameworks */,
+				1B108E03221801AC0086AB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Live_LFLiveKit_RTMP;
+			productName = Live_LFLiveKit_RTMP;
+			productReference = 1B108E05221801AC0086AB60 /* Live_LFLiveKit_RTMP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B108E1C221801AE0086AB60 /* Live_LFLiveKit_RTMPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B108E34221801AE0086AB60 /* Build configuration list for PBXNativeTarget "Live_LFLiveKit_RTMPTests" */;
+			buildPhases = (
+				1B108E19221801AE0086AB60 /* Sources */,
+				1B108E1A221801AE0086AB60 /* Frameworks */,
+				1B108E1B221801AE0086AB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B108E1F221801AE0086AB60 /* PBXTargetDependency */,
+			);
+			name = Live_LFLiveKit_RTMPTests;
+			productName = Live_LFLiveKit_RTMPTests;
+			productReference = 1B108E1D221801AE0086AB60 /* Live_LFLiveKit_RTMPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B108E27221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B108E37221801AE0086AB60 /* Build configuration list for PBXNativeTarget "Live_LFLiveKit_RTMPUITests" */;
+			buildPhases = (
+				1B108E24221801AE0086AB60 /* Sources */,
+				1B108E25221801AE0086AB60 /* Frameworks */,
+				1B108E26221801AE0086AB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B108E2A221801AE0086AB60 /* PBXTargetDependency */,
+			);
+			name = Live_LFLiveKit_RTMPUITests;
+			productName = Live_LFLiveKit_RTMPUITests;
+			productReference = 1B108E28221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B108DFD221801AC0086AB60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "聂宽";
+				TargetAttributes = {
+					1B108E04221801AC0086AB60 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1B108E1C221801AE0086AB60 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1B108E04221801AC0086AB60;
+					};
+					1B108E27221801AE0086AB60 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1B108E04221801AC0086AB60;
+					};
+				};
+			};
+			buildConfigurationList = 1B108E00221801AC0086AB60 /* Build configuration list for PBXProject "Live_LFLiveKit_RTMP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B108DFC221801AC0086AB60;
+			productRefGroup = 1B108E06221801AC0086AB60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B108E04221801AC0086AB60 /* Live_LFLiveKit_RTMP */,
+				1B108E1C221801AE0086AB60 /* Live_LFLiveKit_RTMPTests */,
+				1B108E27221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B108E03221801AC0086AB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B108E15221801AE0086AB60 /* LaunchScreen.storyboard in Resources */,
+				1B108E12221801AE0086AB60 /* Assets.xcassets in Resources */,
+				1B108E10221801AC0086AB60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B108E1B221801AE0086AB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B108E26221801AE0086AB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9435A4FBB8A78528F04FC694 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live_LFLiveKit_RTMP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B108E01221801AC0086AB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B108E0D221801AC0086AB60 /* ViewController.m in Sources */,
+				1B108E18221801AE0086AB60 /* main.m in Sources */,
+				1B108E0A221801AC0086AB60 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B108E19221801AE0086AB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B108E22221801AE0086AB60 /* Live_LFLiveKit_RTMPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B108E24221801AE0086AB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B108E2D221801AE0086AB60 /* Live_LFLiveKit_RTMPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B108E1F221801AE0086AB60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B108E04221801AC0086AB60 /* Live_LFLiveKit_RTMP */;
+			targetProxy = 1B108E1E221801AE0086AB60 /* PBXContainerItemProxy */;
+		};
+		1B108E2A221801AE0086AB60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B108E04221801AC0086AB60 /* Live_LFLiveKit_RTMP */;
+			targetProxy = 1B108E29221801AE0086AB60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B108E0E221801AC0086AB60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B108E0F221801AC0086AB60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B108E13221801AE0086AB60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B108E14221801AE0086AB60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B108E2F221801AE0086AB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B108E30221801AE0086AB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B108E32221801AE0086AB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A121459BBB42C0EFFB28842D /* Pods-Live_LFLiveKit_RTMP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7P9459R55V;
+				INFOPLIST_FILE = Live_LFLiveKit_RTMP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Live-LFLiveKit-RTMP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NK_Common_Profile;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B108E33221801AE0086AB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8EBFF8A307D0033F8C9FA5 /* Pods-Live_LFLiveKit_RTMP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7P9459R55V;
+				INFOPLIST_FILE = Live_LFLiveKit_RTMP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Live-LFLiveKit-RTMP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NK_Common_Profile;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B108E35221801AE0086AB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Live_LFLiveKit_RTMPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Live-LFLiveKit-RTMPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live_LFLiveKit_RTMP.app/Live_LFLiveKit_RTMP";
+			};
+			name = Debug;
+		};
+		1B108E36221801AE0086AB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Live_LFLiveKit_RTMPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Live-LFLiveKit-RTMPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live_LFLiveKit_RTMP.app/Live_LFLiveKit_RTMP";
+			};
+			name = Release;
+		};
+		1B108E38221801AE0086AB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Live_LFLiveKit_RTMPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Live-LFLiveKit-RTMPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Live_LFLiveKit_RTMP;
+			};
+			name = Debug;
+		};
+		1B108E39221801AE0086AB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Live_LFLiveKit_RTMPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Live-LFLiveKit-RTMPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Live_LFLiveKit_RTMP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B108E00221801AC0086AB60 /* Build configuration list for PBXProject "Live_LFLiveKit_RTMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B108E2F221801AE0086AB60 /* Debug */,
+				1B108E30221801AE0086AB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B108E31221801AE0086AB60 /* Build configuration list for PBXNativeTarget "Live_LFLiveKit_RTMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B108E32221801AE0086AB60 /* Debug */,
+				1B108E33221801AE0086AB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B108E34221801AE0086AB60 /* Build configuration list for PBXNativeTarget "Live_LFLiveKit_RTMPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B108E35221801AE0086AB60 /* Debug */,
+				1B108E36221801AE0086AB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B108E37221801AE0086AB60 /* Build configuration list for PBXNativeTarget "Live_LFLiveKit_RTMPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B108E38221801AE0086AB60 /* Debug */,
+				1B108E39221801AE0086AB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B108DFD221801AC0086AB60 /* Project object */;
+}
